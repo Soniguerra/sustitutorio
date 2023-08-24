@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.navbar {
+    padding: 20px;
+    background-color: #ffffff !important;
+}
+
+
+.navbar-brand img {
+    max-width: 100px;
+    height: auto;
+}
+
+.navbar-nav .nav-link {
+    color: #000000;
+    padding: 5px 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: #00ff6e;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.left {
+    width: 50%;
+    padding: 20px;
+}
+
+.left p {
+    font-size: 48px;
+    font-family: 'Mulish', sans-serif;
+}
+
+.font {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.left p:nth-child(2) {
+    font-size: 16px;
+}
+
+.left strong {
+    font-weight: bold;
+}
+
+.logo-mobile {
+    display: none;
+}
+
+.color {
+    color: #89C5CC
+}
+
+.right {
+    width: 50%;
+}
+
+.right img {
+    max-width: 100%;
+    height: auto;
+}
+
+.whatsapp-button {
+    display: inline-block;
+    background-color: #69B99D;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #f0f0f0; 
+    text-align: center; 
+    padding: 20px; 
+}
+
+footer strong {
+    font-weight: bold;
+}
+
+
+footer p {
+    font-size: 18px; 
+    color: #333; 
+}
+
